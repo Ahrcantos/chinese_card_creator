@@ -1,0 +1,18 @@
+[package]
+name = "chinese_card_creator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "card_generator"
+path = "src/lib.rs"
+
+[[bin]]
+name = "ccc"
+path = "src/main.rs"
+
+
+[dependencies]
+nom = "7.1.3"
